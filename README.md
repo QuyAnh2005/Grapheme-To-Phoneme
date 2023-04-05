@@ -54,7 +54,7 @@ python train_g2p.py --train_file dataset/train.dict  --out_path g2p_seq2seq/pret
 ```
 
 ### 3.3 Results
-|         | Accuracy (Token) | Accuracy (Word - Grapheme) | Word Error Rate |
+|         | Accuracy (Token) | Accuracy (Word) | Word Error Rate |
 |:---------------------:|:---------:|---:|---------------------------------:|
 |Training Dataset| 99.74% | 94.09% | 0.82%|
 |Evaluate (Dev) Dataset| 99.52% | 93.77% | 0.93%|
